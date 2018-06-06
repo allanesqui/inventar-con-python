@@ -14,17 +14,18 @@ Aqui hay un ejemplo de cómo el jugador podría ver cuando ellos ejecutan el pro
 ***
 
 A H O R C A D 0 
-
+<pre>
    +---+
-      |
-      |
-      |
-     ===
+     |
+     |
+     |
+    ===
+
      
 Letra falladas:
 _ _ _
 Adivine la letra.
-a
+**a**
   +---+
       |
       |
@@ -33,7 +34,7 @@ a
 Letra falladas:
 _ a _
 Adivine la letra.
-*o*
+**o**
   +---+
   O   |
       |
@@ -42,7 +43,7 @@ Adivine la letra.
 Letra falladas: o
 _ a _
 Adivine la letra.
-*r*
+**r**
   +---+
   O   |
   |   |
@@ -51,7 +52,7 @@ Adivine la letra.
 Letra falladas: or
 _ a _
 Adivine la letra.
-*t*
+**t**
   +---+
   O   |
   |   |
@@ -60,14 +61,14 @@ Adivine la letra.
 Letra falladas: or
 _ a t
 Adivine la letra.
-*a*
+**a**
 Usted ya intentó con esa letra. Intente nuevamente.
 Adivine la letra.
-*c*
+**c**
 ¡Sí! ¡La palabra secreta es "cat"(gato)! ¡Usted ha ganado!
 ¿Le gustaría jugar nuevamente (sí o no)?
 no
-
+</pre>
 ***
 
 ## Arte ASCII
@@ -77,12 +78,14 @@ Los graficos para Ahorcado son teclas del teclado escritas en la pantalla. Este 
 
 Los dibujos para el juego de Ahorcado se verán así en arte ASCII:
 ***
+<pre>
  +---+    +---+    +---+    +---+    +---+    +---+    +---+
  
       |    O   |    O   |    O   |    O   |    O   |    O   |
       |        |    |   |   /|   |   /|\  |   /|\  |   /|\  |
       |        |        |        |        |   /    |   / \  |
      ===      ===      ===      ===      ===      ===      ===
+</pre>
 ***
 
 ## Diseñando un programa con un diagrama de flujo
